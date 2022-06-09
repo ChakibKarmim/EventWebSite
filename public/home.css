@@ -1,0 +1,93 @@
+.btn_group
+{
+    position: absolute;
+    float: right;
+    right: 0px;
+    margin: 15px;
+}
+
+
+.home_title h1
+{
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    color: #00BFB6;
+    font-size: 40px;
+    font-family: 'Smooch', cursive;
+}
+
+.list_illustration
+{
+    float: left;
+    margin-top: 10% ;
+    margin-left: 2%;
+    transform: scale(0.8);
+}
+
+.btn_group .btn-primary
+{
+    margin: 5px;
+    border-radius: 10px;
+    background: #00BFB6;
+}
+
+.btn_group .btn-primary:hover
+{
+    background: #009993;
+}
+.btn_group .btn-primary:focus
+{
+    background: #009993;
+    border-color: #009993;
+}
+
+.planning_list
+{
+    position: absolute;
+    right: 45px;
+    top: 100px;
+    height: 580px;
+    width: 780px;
+    min-height: 500px;
+    min-width: 500px ;
+    overflow: auto;
+}
+
+.planning_list::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+
+}
+
+.planning_list::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+
+.planning_list::-webkit-scrollbar-thumb {
+    background-color: #00BFB6;  /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+
+}
+
+.add
+{
+    border-radius: 10px;
+    background-color: #00BFB6;
+    margin: 3px;
+}
+
+.remove
+{
+    border-radius: 10px;
+    background-color: #db4f4f;
+    margin: 3px;
+}
+
+
+
+.btm_none
+{
+    border-bottom: hidden;
+    border-right: solid black ;
+}

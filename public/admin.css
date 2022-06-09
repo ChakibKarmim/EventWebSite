@@ -1,0 +1,35 @@
+.planning_table
+{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.form_plannig
+{
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    left: 150px;
+}
+
+.form_plannig button
+{
+    margin: 20px;
+    width: 50% !important;
+}
+
+.form_inscription
+{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    right: 150px;
+}
+
+.form_inscription select
+{
+    width: 100px;
+    margin: 5px;
+}
